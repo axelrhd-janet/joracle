@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#MISE description="Update Go dependencies"
+set -euo pipefail
+go mod tidy

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#MISE description="Run Janet tests (requires build first)"
+#MISE depends=["build"]
+set -euo pipefail
+jpm test

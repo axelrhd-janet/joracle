@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#MISE description="Build Go shared library and copy to project root"
+set -euo pipefail
+go build -buildmode=c-shared -o "lib${LIB_NAME}.so" .

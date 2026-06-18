@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#MISE description="Run all tests: Go vet + build + Janet"
+#MISE depends=["check", "build"]
+set -euo pipefail
+jpm test

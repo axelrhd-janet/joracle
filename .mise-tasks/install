@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#MISE description="Install locally via jpm"
+#MISE depends=["build"]
+set -euo pipefail
+jpm install

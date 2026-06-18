@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#MISE description="Vet Go sources"
+set -euo pipefail
+go vet ./...

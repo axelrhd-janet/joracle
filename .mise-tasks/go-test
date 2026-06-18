@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#MISE description="Run Go unit tests"
+set -euo pipefail
+go test ./...
